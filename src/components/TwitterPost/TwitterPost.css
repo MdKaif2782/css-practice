@@ -47,6 +47,11 @@ body{
     padding:0;
     box-sizing: border-box;
 }
+.twitter-user-verified{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+}
 .twitter-post-username{
     font-family: 'SF Pro Text' , sans-serif;
     font-style: normal;
