@@ -8,8 +8,10 @@ function App() {
 
   return (
     <div className="App">
-      <DiscordNav/>
-      <TwitterPost/>
+        <DiscordNav/>
+      <div className="App-container">
+          <TwitterPost/>
+      </div>
     </div>
   )
 }

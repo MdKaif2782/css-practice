@@ -32,10 +32,21 @@ const TwitterPost = () => {
                 <img src={content_image} className="twitter-post-image"/>
             </div>
             <div className="twitter-post-footer">
-                <img src={comment_ic} className="twitter-post-footer-icon"/>
-                <img src={retweet_ic} className="twitter-post-footer-icon"/>
-                <img src={like_ic} className="twitter-post-footer-icon"/>
-                <img src={share_ic} className="twitter-post-footer-icon"/>
+                <div className="twitter-post-footer-holder">
+                    <img src={comment_ic} className="twitter-post-footer-icon"/>
+                    <text className="twitter-post-footer-text">69</text>
+                </div>
+                <div className="twitter-post-footer-holder">
+                    <img src={retweet_ic} className="twitter-post-footer-icon"/>
+                    <text className="twitter-post-footer-text">420</text>
+                </div>
+                <div className="twitter-post-footer-holder">
+                    <img src={like_ic} className="twitter-post-footer-icon"/>
+                    <text className="twitter-post-footer-text">69k</text>
+                </div>
+                <div className="twitter-post-footer-holder">
+                    <img src={share_ic} className="twitter-post-footer-icon"/>
+                </div>
             </div>
         </div>
     </div>

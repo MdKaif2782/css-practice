@@ -1,6 +1,4 @@
-body{
-    margin-top: 50px;
-}
+
 .twitter-post{
     display: flex;
     flex-direction: row;
@@ -8,7 +6,7 @@ body{
     justify-content: flex-start;
     width: 600px;
     height: fit-content;
-    margin: 0 auto;
+    margin: 10px auto;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -129,4 +127,18 @@ body{
     cursor: pointer;
     box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
     background-color: rgba(0, 0, 255, 0.1);
+}
+
+.twitter-post-footer-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: flex-start;
+}
+
+.twitter-post-footer-text{
+    color: rgb(83 100 113);
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: sans-serif;
 }
