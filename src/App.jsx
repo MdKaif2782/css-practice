@@ -7,12 +7,17 @@ import DiscordNav from "./components/DiscordNav/DiscordNav";
 function App() {
 
   return (
-    <div className="App">
-        <DiscordNav/>
-      <div className="App-container">
-          <TwitterPost/>
+      <div className="App">
+          <DiscordNav class="App-nav"/>
+          <div className="App-container">
+              <div className="App-content">
+                  <div className="scrollable-content">
+                      <TwitterPost/>
+                  </div>
+              </div>
+          </div>
       </div>
-    </div>
+
   )
 }
 
